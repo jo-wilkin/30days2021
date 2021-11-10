@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+/raw
+/.DS_Store
+/working
+src/.DS_Store
