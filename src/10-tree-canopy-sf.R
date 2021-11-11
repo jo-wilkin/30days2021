@@ -36,3 +36,5 @@ tm_shape(sf_tree_canopy_mask) + tm_raster(col="layer")
 # Export to raster file - will map / style in QGIS
 writeRaster(sf_tree_canopy_mask, "working/Day10_Raster/sf_tree_canopy_raster.grd")
 
+# Export sf boundary to file
+st_write(sf_boundary, "working/Day10_Raster/sf_boundary.shp")
